@@ -1,0 +1,26 @@
+.big{
+    background: orange;
+    width: 100%;
+    height: 100vh;
+    position:relative;
+    top: 85px;
+    left: 25px;
+}
+.one{
+    background-color: red;
+    height: 500vh;
+    position: sticky;
+    top: 0px;
+}
+.two{
+    background-color: blue;
+    height: 50vh;
+    position:absolute;
+    right: 70px;
+}
+.three{
+    background: yellow;
+    height: 50vh;
+    position: fixed;
+    bottom: 0px;
+}
