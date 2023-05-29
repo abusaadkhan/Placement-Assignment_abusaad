@@ -1,13 +1,7 @@
-const person = function(name){
-    
-        this.name= name;
-        this.getName = function(){
-            console.log(`name of person,${this.name}`)
-        }
-    
+console.log('First');
+function secondCall() {
+console.log('Second');
 }
-
-let abusaad = new person('abusaad')
-let saad = new person('saad')
-abusaad.getName()
-saad.getName()
+setTimeout(secondCall, 2000);
+setTimeout(() => console.log('Third'), 0);
+console.log('Third');
